@@ -1,0 +1,12 @@
+name: frec 
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies: 
+  - python=3.11
+  - Flask
+  - waitress
+  - pip:
+    - deepface
